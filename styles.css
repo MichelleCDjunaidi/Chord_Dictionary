@@ -25,6 +25,25 @@ form {
 
 h3 {
     margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Centering the list container */
+#wordList {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 0;
+    margin: 20px auto; /* Add spacing around the list */
+    list-style: none; /* Remove default list styling */
+}
+
+/* Add spacing between list items */
+#wordList li {
+    margin-bottom: 20px auto; /* Increase spacing */
+    display: flex;
+    align-items: center; /* Center text and buttons horizontally */
 }
 
 label {
